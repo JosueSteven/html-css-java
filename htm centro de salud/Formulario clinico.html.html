@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Consulta</title>
+</head>
+<nav class="nav-menu">
+    <ul class="menu">
+        <li><a href="#"><a href="index.html">Inicio</a></li>
+        <li><a href="#"> <a href="Cita Médica.html">Cita Médica</a></li>
+        <li><a href="#"><a href="Formulario clinico.html.html">Formulario clinico</a></li>
+        <li><a href="#"><a href="Registrase.html.html">Registrase</a></li>
+        <li><a href="#"><a href="horario de antencion.html">horario de antencion</a></li>
+        <li><a href="#"><a href="recetas.html">Recetas</a></li>
+        <li><a href="#"><a href="Aseo y prevención.html">Aseo y prevención</a></li>
+        <li><a href="#"><a href="colaboracion.html.html">Colaboracion</a><li>
+    </ul>
+<body>
+    <div class="contaire">
+        <form action="" class="form">
+        <header class="header">
+        <h1><span> Formulario de Consulta</span></h1>
+        </header>
+    <label for="name" class="forn__label">Nombre</label>
+    <input type="text" class="form__input" name="nombre" placeholder="Nombre" id="name">
+    <label for="direcion" class="form__label">Direcion</label>
+    <input type="text" class="form__input" name="direcion" placeholder="Direcion" id="direcion">
+    <label for="correo" class="form__label">Correo Electronico</label>
+    <input type="email" class="form__input" name="correo" placeholder="Correo" id="Correo Electronico">
+    <label for="mensaje" class="form__label">Escriba su mensaje de texto</label>
+    <textarea class="form__text" name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escriba su texto"></textarea>
+        <input type="submit" class="enviar" value="Enviar su consulta">
+</form>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1,9rem;
+        background:url(3.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    .form{
+        width: 50%;
+        min-width: 300px;
+        background: rgb(0, 0, 0.491);
+        margin: auto;
+        margin-top: 50px;
+        padding: 20px;
+        color:#2755c2;
+    }
+    .form__input{
+        width: 100%;
+        height: 45px;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #2765c2;
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+        color: #fff;
+    }
+    .form__text{
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        padding: 10px;
+        outline: none;
+        border: none;
+        border-bottom: 2px solid #2755c2;
+    }
+    .form__text::placeholder{
+        font: 1.4rem;
+    }
+    .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 3.2rem 0;
+    z-index: 999;
+}
+ul{
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+           body{
+               background-color: rgb(124, 124, 124);
+           }
+           a, li{
+              font-family: "Roboto", sans-serif;
+              color: rgb(255, 255, 255);
+           }
+           header{
+            background-color: rgb(2, 2, 2);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: .5rem 2rem;
+           }
+           .nav-menu ul{
+            margin: 1.5rem;
+            display: flex;
+            align-items: center;
+            padding: .5rem 2rem;
+           }
+           .nav-menu ul{
+            display: flex;
+            align-items: center;
+           }
+           .nav-menu li{
+            margin: 1.5rem;
+           }
+           .nav-menu a:hover{
+            color: aqua;
+           }
+           h2{
+                color:rgb(224, 224, 220)
+            }
+            .imgl img{
+                top: 0%;
+            }
+            .header{
+    min-height: 100vh;
+}
+</style>
+    </div>
+</body>
+</html>
